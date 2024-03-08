@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Banana_News" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/redDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/redDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+
+    </style>
+
+    <style name="Theme.Banana_News" parent="Base.Theme.Banana_News" />
+
+    <style name="Theme.Banana_News.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Banana_News.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Banana_News.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
